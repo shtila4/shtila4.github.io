@@ -1,143 +1,114 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml">
+<!DOCTYPE html>
+<html lang="en">
 <head>
-<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-<title>无标题文档</title>
- 
-<style type="text/css">
-body {
-	margin-left: 0px;
-	margin-top: 0px;
-}
-#aa {
-	position: fixed;
-	height: 662px;
-	width: 1366px;
-	background: #FFF;
-}
-#bb {
-	background: #FFF;
-	position: absolute;
-	height: 401px;
-	width: 1398px;
-	left: -31px;
-	top: 0px;
-}
-#cc {
-	background: #09C;
-	position: absolute;
-	height: 63px;
-	width: 1404px;
-	left: -34px;
-	top: 418px;
-	font-size: 36px;
-	color: #FFF;
-}
-#dd {
-	position: absolute;
-	height: 124px;
-	width: 175px;
-	left: 1142px;
-	top: 136px;
-}
-#ee {
-	position: absolute;
-	height: 295px;
-	width: 510px;
-	left: 953px;
-	top: 70px;
-	line-height: 24px;
-}
-#ff {
-	position: absolute;
-	height: 66px;
-	width: 214px;
-	left: 600px;
-	top: 553px;
-	font-size: 45px;
-	font-weight: bold;
-}
-.gg {
-	font-size: 36px;
-}
-#aa #bb #ee table tr td {
-	color: #000;
-}
-#aa #bb #ee table {
-	color: #000;
-}
-#gg {
-	position: absolute;
-	height: 161px;
-	width: 195px;
-	left: 573px;
-	top: -55px;
-	font-size: 16px;
-}
-</style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+        *{
+            padding: 0;
+            margin: 0;
+            list-style: none;
+        }
+        #he{
+            /* width: 100%; */
+            display: flex;/*弹性盒模型*/
+            justify-content: center;/*主轴方向居中显示*/
+            align-items: center;/*交叉轴方向居中显示*/
+            height: 100vh;
+            background-color: #232e6d;
+        }
+        ul{
+            height: 200px;
+        }
+        li{
+            float: left;
+            width: 20px;
+            height: 20px;
+            border-radius: 20px;
+            margin-right: 10px;
+        }
+        li:nth-child(1){
+            background-color: #f62e74;
+            animation: love1 4s infinite;
+        }
+        li:nth-child(2){
+            background-color: #f45330;
+            animation: love2 4s infinite;
+            animation-delay: 0.15s;
+        }
+        li:nth-child(3){
+            background-color: #ffc883;
+            animation: love3 4s infinite;
+            animation-delay: 0.3s;
+        }
+        li:nth-child(4){
+            background-color: #30d268;
+            animation: love4 4s infinite;
+            animation-delay: 0.45s;
+        }
+        li:nth-child(5){
+            background-color: #006cb4;
+            animation: love5 4s infinite;
+            animation-delay: 0.6s;
+        }
+        li:nth-child(6){
+            background-color: #784697;
+            animation: love4 4s infinite;
+            animation-delay: 0.75s;
+        }
+        li:nth-child(7){
+            background-color: #ffc883;
+            animation: love3 4s infinite;
+            animation-delay: 0.9s;
+        }
+        li:nth-child(8){
+            background-color: #f45330;
+            animation: love2 4s infinite;
+            animation-delay: 1.05s;
+        }
+        li:nth-child(9){
+            background-color: #f62e74;
+            animation: love1 4s infinite;
+            animation-delay: 1.2s;
+        }
+        @keyframes love1{
+            30%,50%{height: 60px; transform: translateY(-30px);}
+            75%,100%{height: 20px; transform: translateY(0);}
+        }
+        @keyframes love2{
+            30%,50%{height: 125px; transform: translateY(-62.5px);}
+            75%,100%{height: 20px; transform: translateY(0);}
+            
+        }
+        @keyframes love3{
+            30%,50%{height: 160px; transform: translateY(-75px);}
+            75%,100%{height: 20px; transform: translateY(0);}
+        }
+        @keyframes love4{
+            30%,50%{height: 180px; transform: translateY(-60px);}
+            75%,100%{height: 20px; transform: translateY(0);}
+        }
+        @keyframes love5{
+            30%,50%{height: 190px; transform: translateY(-45px);}
+            75%,100%{height: 20px; transform: translateY(0);}
+        }
+    </style>
 </head>
- 
 <body>
-<div id="aa">
-  <div id="cc">                                                            青春     奔放    活泼    热情&copy;</div>
-  <div id="bb">
-    <div id="ee">
-      <table width="100%" border="0" align="center" cellpadding="0" cellspacing="0">
-        <tr>
-          <td><hr /></td>
-        </tr>
-        <tr>
-          <td><p>姓名：%%%</p></td>
-        </tr>
-        <tr>
-          <td>性别：男</td>
-        </tr>
-        <tr>
-          <td>年龄：19</td>
-        </tr>
-        <tr>
-          <td>家乡：<a href="http://baike.baidu.com/link?url=ZkJSggcN2Nl7Xe0HaB0hSRrMkIdo-VGCNJWpbPIWNt1-M7xPr4FkF2qdxHGCMz3lT0LdGTsXi5zMtwMWKZ5S3Pz8elmt9ATA1omMMMfTIBSdG430mMTTJk0MyAlQO88B">甘肃省镇原县</a></td>
-        </tr>
-        <tr>
-          <td>就读院校：<a href="http://baike.baidu.com/item/%E5%9B%9B%E5%B7%9D%E5%A4%A7%%A6">**大学</a></td>
-        </tr>
-        <tr>
-          <td>就读专业：<a href="http://baike.baidu.com/item/%E5%BE%AE%E7%94%E7%A7%91%E5%AD%A6%E4%B8%8E%E5%B7%A5%E7%A8%8B%E4%B8%93%E4%B8%9A">微电子科学与工程专业</a></td>
-        </tr>
-        <tr>
-          <td>学生证号：201614#######</td>
-        </tr>
-        <tr>
-          <td>兴趣爱好：听歌，打篮球</td>
-        </tr>
-        <tr>
-          <td>政治面貌：团员</td>
-        </tr>
-        <tr>
-          <td>联系电话：13245676543</td>
-        </tr>
-        <tr>
-          <td>Email:179997256@qq.com</td>
-        </tr>
-        <tr>
-          <td>关键词：学生</td>
-        </tr>
-        <tr>
-          <td> </td>
-        </tr>
-      </table>
+    <div id="he">
+        <ul>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+        </ul>
     </div>
-    <img src="img/1497103056360.jpg" width="1398" height="403" /></div>
-  <div id="ff">
-    <div id="gg">
-      <p> </p>
-      <p> </p>
-      <p> </p>
-      <p><a href="zhuye.html">回到主页</a></p>
-      <form id="form1" name="form1" method="post" action="">
-      </form>
-    </div>
-  About  me</div>
-</div>
 </body>
 </html>
